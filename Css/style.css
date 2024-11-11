@@ -1,28 +1,33 @@
 /* font-family: "Work Sans", sans-serif; */
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* font-family: "Open Sans", sans-serif; */
 
 /* Nav style */
 
 
 /* share colour start */
-.color-primary{
-    color: #FD6E0A ;
+.color-primary {
+    color: #FD6E0A;
 }
-.secondary-bg{
+
+.secondary-bg {
     background-color: #fff8f3;
 }
-.dark-2{
+
+.dark-2 {
     color: #474747;
 }
-.dark-3{
+
+.dark-3 {
     color: #757575;
 }
-.btn{
-    background-color: #FD6E0A ;
+
+.btn {
+    background-color: #FD6E0A;
     color: white;
     font-weight: bold;
     font-size: 20px;
@@ -30,81 +35,279 @@
     border-radius: 10px;
     border: none;
 }
-.about-title{
+
+.about-title {
     font-size: 35px;
     font-weight: bold;
-    color:#181818;
+    color: #181818;
     font-family: "Open Sans", sans-serif;
 }
-.about-description{
+
+.about-description {
     font-family: "Open Sans", sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     color: #757575;
     text-align: center;
+    padding: 30px 0px;
 }
+
 /* share colour end */
-.headder-img{
+.headder-img {
     background-image: url(../assets/developer.png), url(../assets/header_bg.png);
-    background-repeat: no-repeat ;
+    background-repeat: no-repeat;
     background-position: top left, bottom right;
     margin-bottom: 50px;
     height: 800px;
 }
-.nab-bar{
+
+.nab-bar {
     display: flex;
-    font-family:"Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 230px;
+    padding: 20px 230px;
 }
-.nav-title{
+
+.nav-title {
     font-size: 45px;
     font-weight: bolder;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin-left: 50px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     font-size: 20px;
     color: ;
 }
 
-.banner{
-    font-family:"Open Sans", sans-serif;
+.banner {
+    font-family: "Open Sans", sans-serif;
     display: flex;
     justify-content: space-between;
     margin: 0px 35px 0 230px;
     margin-top: 8.4%;
 }
-.banner-content{
+
+.banner-content {
     width: 585px;
     margin-top: 100px;
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 45px;
     font-weight: 600;
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
     font-weight: bold;
     margin-top: 20px;
 }
-.banner-image{
+
+.banner-image {
     width: 500px;
 }
-.banner-content p{
+
+.banner-content p {
     margin: 35px 0px;
 }
-.about{
-    text-align: center;
 
+.about {
+    text-align: center;
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+    font-family: "Open Sans", sans-serif;
 }
-.image-banner-image{
+
+.image-banner-image {
     margin-bottom: -5px;
 }
+
+/* main Style  */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.background-white {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.colour-bold {
+    font-weight: bold;
+}
+
+.what-i-do {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.what-i-do p {
+    width: 909px;
+    margin: 30px auto 50px;
+}
+
+.cards {
+    font-family: "Open Sans", sans-serif;
+}
+
+.card {
+    width: 267px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card img {
+    padding: 30px 193px 30px 30px;
+}
+
+.card h3 {
+    padding: 30px 30px 0px 30px;
+}
+
+.card p {
+    padding: 20px 33px 30px 33px;
+    line-height: 28px;
+}
+
+.card-post {
+    display: flex;
+    margin: 0px auto 130px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.education {
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.resume {
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+.edu-sec {
+    height: 175px;
+    width: 450px;
+    margin: 30px auto;
+    border-bottom: 1px solid black;
+}
+}
+
+.my-edu {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.master {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.harvard {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.list-font {
+    margin-top: 22px;
+    font-size: 15px;
+}
+
+.edu-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.border-n {
+    border: none;
+}
+
+.resume-dow {
+    margin: 50px auto 113px;
+}
+
+.contract {
+    /* width: 1600px; */
+    background-color: #fff8f3;
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+}
+.con-icon h1{
+
+}
+.con-icon p{
+    line-height: 28px;
+    font-size: 15px;
+    color: #474747;
+}
+.con-icon ul {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.con-icon ul li {
+    list-style: none;
+
+}
+
+.con-icon ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: ;
+}
+
+/* form start */
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+    margin-top: 6px;
+    margin-bottom: 16px;
+    /* resize: vertical; */
+}
+
+input[type=submit] {
+    background-color: #FD6E0A;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    /* cursor: pointer; */
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* form end */
